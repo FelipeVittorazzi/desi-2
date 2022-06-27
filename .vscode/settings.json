@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "vscode-icons",
+    "diffEditor.wordWrap": "on",
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on", //
+    "telemetry.telemetryLevel": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "yaml.schemas": {
+        "file:///Users/tridia/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "editor.codeLensFontFamily": "Gilsans"
+}

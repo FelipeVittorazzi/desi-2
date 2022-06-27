@@ -25,7 +25,7 @@ Colors:
 - Backgrounds - light gray #f7f9fd
 - Headings text - black #161223
 - Body text - dark gray #53575a
-- Buttons, icons - green #7dc22b
+- Buttons, icons - green #600972
 ******************************************/
 
 
@@ -91,6 +91,13 @@ h6 {
 	font-family: "Poppins"
 }
 
+.inova {
+	color: #ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
 .p-large {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
@@ -147,7 +154,7 @@ a:hover {
 }
 
 .green {
-	color: #7dc22b;
+	color: #9f2bc2;
 }
 
 .bg-gray {
@@ -157,9 +164,9 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #600972;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #600972;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -170,16 +177,16 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
+	color: #600972; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #600972;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #600972;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -190,7 +197,7 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
+	color: #600972; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -293,9 +300,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #600972;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: #600972;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -305,9 +312,9 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-	border: 1px solid #7dc22b;
+	border: 1px solid #600972;
 	background-color: transparent;
-	color: #7dc22b;
+	color: #600972;
 }
 
 
@@ -378,7 +385,7 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #7dc22b;
+	color: #600972;
 }
 
 /* Dropdown Menu */
@@ -415,7 +422,7 @@ a:hover {
 
 .navbar .dropdown-item:hover {
 	background-color: #161223;
-	color: #7dc22b;
+	color: #600972;
 }
 
 .navbar .dropdown-divider {
@@ -434,7 +441,7 @@ a:hover {
 }
 
 .navbar .fa-stack-2x {
-	color: #7dc22b;
+	color: #600972;
 	transition: all 0.2s ease;
 }
 
@@ -448,7 +455,7 @@ a:hover {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-	color: #7dc22b;
+	color: #600972;
 }
 
 .navbar .navbar-toggler {
@@ -475,13 +482,27 @@ a:hover {
 	height: auto;
 	z-index: -100; 
 }
-
+.navbar-brand.logo-image.d-flex.gap-3 {
+	align-items: center;
+}
+.navbar-brand.logo-image.d-flex.gap-3 svg {
+	margin-bottom: 1rem;
+}
+.logo {
+	width: 10%;
+}
+.grid .img-fluid {
+	height: 10rem;
+	width: 19em;
+	object-fit: cover;
+} 
 .header .header-content {
 	padding-top: 11rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(rgba(21, 35, 63, 0.5), rgba(21, 35, 63, 0.5));
+	background: linear-gradient(rgba(21, 35, 63, 0.5), rgba(126, 27, 172, 0.5));
 	background-size: cover;
 	text-align: center; 
+	backdrop-filter: sepia(.4);
 }
 
 .header .h1-large {
@@ -527,7 +548,7 @@ a:hover {
 	margin-bottom: 2rem;
 	margin-left: auto;
 	border-radius: 50%;
-	background-color: #7dc22b;
+	background-color: #600972;
 	text-align: center;
 }
 
@@ -547,7 +568,7 @@ a:hover {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: url('../images/details-background.jpg') center center no-repeat;
+	background: url('../images/idea.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -566,69 +587,6 @@ a:hover {
 
 .split p:last-of-type {
 	margin-bottom: 0;
-}
-
-
-/**********************/
-/*     Services 1     */
-/**********************/
-.basic-1 {
-	padding-top: 9.75rem;
-	padding-bottom: 5rem;
-}
-
-.basic-1 .image-container {
-	margin-bottom: 4rem;
-}
-
-.basic-1 .image-container img {
-	border-radius: 8px;
-}
-
-.basic-1 h2 {
-	margin-bottom: 1.5rem;
-}
-
-
-/**********************/
-/*     Services 2     */
-/**********************/
-.basic-2 {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-.basic-2 .image-container {
-	margin-bottom: 4rem;
-}
-
-.basic-2 .image-container img {
-	border-radius: 8px;
-}
-
-.basic-2 h2 {
-	margin-bottom: 1.5rem;
-}
-
-
-/**********************/
-/*     Services 3     */
-/**********************/
-.basic-3 {
-	padding-top: 5rem;
-	padding-bottom: 9.75rem;
-}
-
-.basic-3 .image-container {
-	margin-bottom: 4rem;
-}
-
-.basic-3 .image-container img {
-	border-radius: 8px;
-}
-
-.basic-3 h2 {
-	margin-bottom: 1.5rem;
 }
 
 
@@ -663,7 +621,7 @@ a:hover {
 
 .filter .button:hover,
 .filter .button.is-checked {
-	background-color: #7dc22b;
+	background-color: #600972;
 	color: #ffffff;
 }
 
@@ -787,7 +745,7 @@ a:hover {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #7dc22b;
+	color: #600972;
 }
 
 .form-1 .form-control-input,
@@ -818,7 +776,7 @@ a:hover {
 
 .counter .purecounter {
 	margin-bottom: 1.5rem;
-	color: #7dc22b;
+	color: #600972;
 	font-weight: 600;
 	font-size: 5rem;
 	line-height: 3rem;
@@ -881,7 +839,7 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: #7dc22b;
+    color: #600972;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -972,7 +930,7 @@ a:hover {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-	color: #7dc22b;
+	color: #600972;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
